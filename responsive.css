@@ -1,0 +1,32 @@
+/* Mobile Layout */
+@media only screen and (min-width:200px) and (max-width:480px){
+    #header_area h1, .main_content h1 {
+        font-size: 26px;
+    }
+    #header_area h1, h2, p {
+        text-align: center;
+    }
+    .menu_area ul{
+        margin: 0;
+        padding: 0;
+    }
+    .menu_area {
+        width: 100%;
+    }
+    .main_content {
+        width: 92%;
+        margin: 0 4%;
+        margin-bottom: 20px;
+    }
+    .main_content h1{
+        text-align: center;
+    }
+    .main_content p{
+        text-align: justify;
+    }
+    .sidebar {
+        width: 98%;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+}
